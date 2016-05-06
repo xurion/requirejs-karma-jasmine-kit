@@ -13,3 +13,7 @@ The **tests/karma-loader.js** file is used by **karma.conf.js** to preload test 
 A **tests/simple.spec.js** test file simply runs a couple of basics to confirm the setup is working.
 
 A **tests/NumberGetter.spec.js** test file asserts some basic instance functionality from **src/NumberGetter.js**.
+
+## Reporter
+
+The reporter used is the nyan cat reporter. Feel free to remove it from **karma.conf.js** to fall back to simple reporting. But why would anyone not want nyan..?
