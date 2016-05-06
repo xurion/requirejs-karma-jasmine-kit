@@ -1,10 +1,10 @@
 {
-  "name": "RequireJSKarmaJasmineSetup",
-  "version": "0.0.1",
+  "name": "RequireJSKarmaJasmineKit",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:xurion/RequireJSKarmaJasmineSetup.git"
+    "url": "git@github.com:xurion/requirejs-karma-jasmine-kit.git"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
