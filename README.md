@@ -1,4 +1,4 @@
-# RequireJS Karma Jasmine setup
+# RequireJS Karma Jasmine Kit
 
 This project houses a basic RequireJS, Karma and Jasmine setup. Due to the asynchronous nature of RequireJS, getting started with unit testing can be tricky. This will aid you in getting started.
 
