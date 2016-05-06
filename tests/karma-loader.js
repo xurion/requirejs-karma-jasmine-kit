@@ -10,7 +10,6 @@ for (file in window.__karma__.files) {
 
         if (/tests\/.*.spec.js$/.test(file)) {
 
-            console.log("The test: " + file);
             file = file.substring(0, file.length - 3);
             files = file.split('/');
             tests.push(files[files.length - 1]);
@@ -25,7 +24,7 @@ requirejs.config({
 
     paths: {
 
-        'GetNumber': '../src/GetNumber'
+        'NumberGetter': '../src/NumberGetter'
     },
 
     // ask Require.js to load these files (all our tests)
