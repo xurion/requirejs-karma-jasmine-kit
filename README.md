@@ -2,6 +2,19 @@
 
 This project houses a basic RequireJS, Karma and Jasmine setup. Due to the asynchronous nature of RequireJS, getting started with unit testing can be tricky. This will aid you in getting started.
 
+## Installation
+
+To install the project, simply install the NPM dependencies from package.json:
+
+    npm install
+
+If you want to integrate the kit into an existing project, simply:
+
+- Copy the dependencies from **package.json**.
+- Copy the karma task from **Gruntfile.js**.
+- Copy the **karma.conf.js** and modify the paths to match your project.
+- Copy the **tests/karma-loader.js** and modify the paths to match your project.
+
 ## Running tests
 
     grunt karma
