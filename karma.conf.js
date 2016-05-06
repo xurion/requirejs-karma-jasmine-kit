@@ -25,7 +25,10 @@ module.exports = function (config) {
         plugins: [
             'karma-jasmine',
             'karma-requirejs',
-            'karma-phantomjs-launcher'
-        ]
+            'karma-phantomjs-launcher',
+            'karma-nyan-reporter'
+        ],
+
+        reporters: ['nyan']
     });
 };
