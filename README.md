@@ -1,5 +1,7 @@
 # RequireJS Karma Jasmine Kit
 
+[![Circle CI](https://circleci.com/gh/xurion/requirejs-karma-jasmine-kit.svg?style=svg)](https://circleci.com/gh/xurion/requirejs-karma-jasmine-kit)
+
 This project houses a basic RequireJS, Karma and Jasmine setup. Due to the asynchronous nature of RequireJS, getting started with unit testing can be tricky. This will aid you in getting started.
 
 ## Installation
